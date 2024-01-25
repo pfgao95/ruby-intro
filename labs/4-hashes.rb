@@ -30,3 +30,19 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 # puts bitcoin_data
+
+# each bitcoin worth
+each_bitcoin = bitcoin_data["bpi"]["USD"]["rate_float"]
+# puts each_bitcoin
+
+# your bitcoin value
+your_value = bitcoin * each_bitcoin
+
+# write how much bitcoin you own
+puts "You have #{bitcoin} bitcoin"
+
+# write how much 1 bitcoin's value
+puts "1 Bitcoin is valued at $#{each_bitcoin} USD"
+
+# write how much your bitcoins' value
+puts "Your Bitcoin is worth $#{your_value} USD"

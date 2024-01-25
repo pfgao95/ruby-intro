@@ -15,3 +15,26 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+#Create my shopping list
+my_shopping_list = ["milk", "eggs", "bacon"]
+
+#Create my friend's shopping list
+friend_shopping_list = ["beer", "cookies", "apples"]
+
+#combine lists
+combined_shopping_list = my_shopping_list + friend_shopping_list
+
+#sort list
+sorted_list = combined_shopping_list.sort
+
+#get rid of repeated things
+uniq_list = sorted_list.uniq
+
+# write on the screen
+puts "Buy #{uniq_list[0]}"
+puts "Buy #{uniq_list[1]}"
+puts "Buy #{uniq_list[2]}"
+puts "Buy #{uniq_list[3]}"
+puts "Buy #{uniq_list[4]}"
+puts "Buy #{uniq_list[5]}"
